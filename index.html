@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Personal academic homepage of Your Name"
+  >
+
+  <title>Your Name's Homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 顶部导航栏 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="/">
+        Lu Wei's Homepage
+      </a>
+
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 页面主体 -->
+  <main class="container">
+
+    <!-- 左侧个人信息 -->
+    <aside class="profile">
+      <img
+        class="avatar"
+        src="assets/avatar.jpg"
+        alt="Portrait of Your Name"
+      >
+
+      <h2>Lu Wei</h2>
+      <p class="name-cn">魏璐</p>
+
+      <p class="position">
+        Assistant Professor
+      </p>
+
+      <p class="institution">
+        Xidian University
+      </p>
+
+      <div class="profile-links">
+        <a href="https://weidoudou.github.io/" target="_blank">
+          GitHub
+        </a>
+
+        <a href="24171111294@stu.xidian.edu.cn">
+          Email
+        </a>
+      </div>
+    </aside>
+
+    <!-- 右侧内容 -->
+    <article class="content">
+
+      <section id="about">
+        <h1>About Me</h1>
+
+        <p>
+          I am an PhD Student at
+          <a href="https://sai.xidian.edu.cn/" target="_blank">
+            School of Artifical Intelligence
+          </a>,
+          <a href="https://www.xidian.edu.cn/" target="_blank">
+            Xidian University
+          </a>.
+          My research interests include autonomous driving,
+          computer vision, machine learning, and embodied
+          artificial intelligence.
+        </p>
+
+      </section>
+
+      <section id="research">
+        <h1>Research Interests</h1>
+
+        <ul>
+          <li>Autonomous Driving</li>
+          <li>Computer Vision</li>
+          <li>Machine Learning</li>
+          <li>Multimodal Learning</li>
+          <li>Embodied Artificial Intelligence</li>
+        </ul>
+      </section>
+
+      
+      <section id="contact">
+        <h1>Contact</h1>
+
+        <p>
+          Email:
+          <a href="24171111294@stu.xidian.edu.cn">
+            24171111294@stu.xidian.edu.cn
+          </a>
+        </p>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year"></span> Lu Wei's Homepage
+    </p>
+
+    <p>
+      Hosted by GitHub Pages
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
